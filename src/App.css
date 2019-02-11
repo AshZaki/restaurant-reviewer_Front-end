@@ -1,0 +1,41 @@
+html, body, #root, #root > div{
+  height: 100%;
+ }
+
+.centered{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/img/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap; 
+  align-items: stretch;
+}
+.card-deck .card {
+  display: block;
+  flex-basis: 18%; /* change this value for each breakpoint*/
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.details-container{
+  padding: 4rem;
+  width: 1000px;
+  border: #999 solid 1px;
+}
+/* .carousel-img {
+  max-height:400px;
+} */
+
+nav.navbar{
+  background-color: #fff3a2!important;
+}
+.card {
+  cursor: pointer;
+}
